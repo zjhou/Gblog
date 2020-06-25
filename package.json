@@ -1,0 +1,14 @@
+{
+  "name": "Gblog",
+  "version": "0.0.1",
+  "description": "gmail api 2 blog api",
+  "main": "index.js",
+  "repository": "git@github.com:zjhou/Gblog.git",
+  "author": "ZjHOU <z@zjh.im>",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "39",
+    "lodash": "^4.17.15",
+    "vercel": "^19.1.1"
+  }
+}
