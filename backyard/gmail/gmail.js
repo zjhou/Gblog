@@ -10,7 +10,7 @@ const {
 } = require('../utils/str_utils');
 
 class Gmail {
-  async constructor() {
+  constructor() {
     this.setUp();
   }
 
