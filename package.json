@@ -1,6 +1,7 @@
 {
   "name": "Gblog",
   "version": "0.0.1",
+  "private": true,
   "description": "gmail api 2 blog api",
   "main": "index.js",
   "repository": "git@github.com:zjhou/Gblog.git",
