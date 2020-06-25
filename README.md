@@ -1,4 +1,4 @@
 # GBlog
 
-Blog API based on Gmail API.
-Deployed To Vercel.
+Blog API based on [Gmail](https://developers.google.com/gmail/api).
+Deployed To [Vercel](https://vercel.com/).
