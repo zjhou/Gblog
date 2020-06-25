@@ -4,7 +4,7 @@ Blog API based on [Gmail](https://developers.google.com/gmail/api).
 Deployed To [Vercel](https://vercel.com/).
 
 ### Description
-Publish articles to my sites by sending a email with 'post' label to myself.
+Publish articles to my sites by sending a email to myself and label it with 'post'.
 
 ### Status
 Developing & Not ready for using.
