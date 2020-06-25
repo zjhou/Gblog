@@ -1,2 +1,3 @@
-# Gblog
-A gmail blog.
+# GBlog
+
+Blog API based on Gmail API.
