@@ -5,6 +5,7 @@ module.exports = {
   EMAIL_DATA_PATH: {
     CONTENT: 'payload.parts[0].body.data',
   },
+  EMAIL_RICH_MIME_TYPE: 'text/html',
   EMAIL_POST_LABEL_NAME: 'post',
   EMAIL_SUBJECT: 'Subject',
 };

@@ -7,6 +7,7 @@ const {
 const {
   EMAIL_DATA_PATH,
   EMAIL_SUBJECT,
+  EMAIL_RICH_MIME_TYPE,
 } = require('../constants');
 
 class Blog extends Gmail {
@@ -21,7 +22,7 @@ class Blog extends Gmail {
     return fullMessages.map(message => {
       return {
         title: this.findMsgSubject(message),
-        content: parseBase64(get(message, EMAIL_DATA_PATH.CONTENT, ''))
+        content: this.findMsgContent(message),
       }
     });
   }
@@ -32,6 +33,14 @@ class Blog extends Gmail {
     });
 
     return header.value;
+  };
+
+  findMsgContent = (message) => {
+    const part = message.payload.parts.find(function(part) {
+      return part.mimeType === EMAIL_RICH_MIME_TYPE;
+    });
+
+    return parseBase64(part.body.data)
   }
 }
 
