@@ -12,4 +12,5 @@ Publish articles to my site with following two steps:
 Developing & Not ready for using.
 
 ### Demo
-[https://gblog.vercel.app/api/posts](https://gblog.vercel.app/api/posts)
+- [API](https://gblog.vercel.app/api/posts)
+- [UI](https://beta.fufu.im)
